@@ -176,6 +176,10 @@ main article p{
     justify-content: space-between;
 }
 
+#section1 .right-div{
+    flex-grow: 1;
+}
+
 .right-div h3{
     margin: 0.6em 0;
 }
