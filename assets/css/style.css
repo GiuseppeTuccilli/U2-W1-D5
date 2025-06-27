@@ -269,6 +269,7 @@ main article p{
 
 .bookmark{
     margin-left: auto;
+    align-self: end;
 }
 
 .art{
