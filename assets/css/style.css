@@ -280,6 +280,13 @@ main article p{
     margin-left: auto;
 }
 
+.scrolled{
+background-color: white;
+}
+.btn-scrolled{
+    background-color: #538724;
+}
+
 
 
 @media screen and (min-width:800px){
