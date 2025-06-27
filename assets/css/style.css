@@ -294,6 +294,10 @@ background-color: white;
     cursor: pointer;
 }
 
+.author img{
+    border-radius: 50%;
+}
+
 
 
 @media screen and (min-width:800px){
