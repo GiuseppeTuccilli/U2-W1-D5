@@ -229,7 +229,7 @@ main article p{
 }
 
 #link-container li{
-    margin: 0.5em 1em;
+    margin: 0.2em 1em;
 }
 
 #link-container a{
@@ -264,6 +264,7 @@ main article p{
 
 .under{
     align-items: center;
+    justify-self: unset;
 }
 
 .bookmark{
@@ -285,6 +286,10 @@ background-color: white;
 }
 .btn-scrolled{
     background-color: #538724;
+}
+
+.disc-button:hover{
+    cursor: pointer;
 }
 
 
@@ -356,7 +361,7 @@ main{
     padding: 2em 10em;
 }
 .container{
-    width: 30%;
+    width: 33%;
 }
 
 #section2{
