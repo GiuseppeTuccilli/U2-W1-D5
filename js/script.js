@@ -15,7 +15,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
-const mArray = document.querySelectorAll("svg g");
+const mArray = document.querySelectorAll("svg g g");
 /*
 const randomM = function () {
   for (i = 0; i < mArray.length; i++) {
@@ -36,7 +36,7 @@ const randomM = function () {
 
 const ran = function () {
   let r = Math.random();
-  if (r <= 0.85) {
+  if (r <= 0.7) {
     return true;
   } else {
     return false;
@@ -44,7 +44,7 @@ const ran = function () {
 };
 
 const randomM = function () {
-  for (i = 0; i < mArray.length; i++) {
+  for (i = 2; i < mArray.length; i++) {
     if (ran()) {
       mArray[i].style.opacity = "1";
     } else {
